@@ -12,6 +12,13 @@ before running any tests**.
 
 ## Instructions
 
+```
+Make a function that named 'hasTargetSum' that takes 2 arguments. first, an array of integers. then,
+a the integer you want the pair of integers to equal. 
+This function should return TRUE if the array contains a pair of integers that add up the the target integer.
+
+```
+
 Write a function called `hasTargetSum` that receives two arguments:
 
 - an `array` of integers

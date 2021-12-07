@@ -17,6 +17,12 @@ function hasTargetSum(array, target) {
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
+
+  // ([3, 8, 12, 4, 11, 7], 10)
+  //  3 + 7 = 10 returns true
+  // ([3, 8, 17, 4, 12, 7], 11)
+  // false
+
   console.log("Expecting: true");
   console.log("=>", hasTargetSum([3, 8, 12, 4, 11, 7], 10));
 
